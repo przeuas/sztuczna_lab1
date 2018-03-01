@@ -46,7 +46,7 @@ int main()
 	tsMatrix matrix;
 	fstream hfile;
 
-	if (readFromFile(hfile, matrix) == 100) // jesli wczytalismy 100 liczb
+	if (readFromFile(hfile, matrix) == 100) // jesli wczytalismy 100 liczbr
 		showMatrix(matrix);
 
 	system("PAUSE");
